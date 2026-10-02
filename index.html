@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تهنئة خطوبة مباركة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- خلفية الصورة -->
+    <div class="bg-image-overlay"></div>
+
+    <!-- 0. الهدية الفضية والذهبية (تتفتح في بداية الصفحة) -->
+    <div id="gift-overlay" class="gift-overlay">
+        <div class="gift-box">
+            <div class="gift-lid">
+                <div class="ribbon-bow-gold"></div>
+            </div>
+            <div class="gift-body">
+                <div class="ribbon-gold-vertical"></div>
+            </div>
+            <p class="gift-text">هدية خاصة لـ فاطمة عادل...</p>
+        </div>
+    </div>
+
+    <!-- حاوية المشاهد الرئيسية (تظهر التهاني بالتتابع) -->
+    <main id="main-stage" class="main-stage">
+
+        <!-- المشهد 1: القلب ذو الأجنحة البيضاء الكبيرة -->
+        <div id="scene-1" class="scene">
+            <div class="winged-heart-container">
+                <div class="wing wing-left">🪽</div>
+                <div class="heart-core">
+                    <p class="wish-text color-warm">
+                        «ألف مبروك الخطوبة السعيدة.. أحر التهاني وأجمل الأمنيات لقلبك الجميل ببدء هذه الخطوة المباركة»
+                    </p>
+                </div>
+                <div class="wing wing-right">🪽</div>
+            </div>
+        </div>
+
+        <!-- المشهد 2: القلوب الثلاثة والإنفجار الأشرطة -->
+        <div id="scene-2" class="scene">
+            <div class="three-hearts-container">
+                <div class="heart-card heart-from-top">
+                    <span>«ربنا يبارك لكم في هذه الخطوبة»</span>
+                </div>
+                <div class="heart-card heart-from-right">
+                    <span>«ويجعلها بداية لحياة ملؤها المودة»</span>
+                </div>
+                <div class="heart-card heart-from-left">
+                    <span>«ويتمم لكم على خير»</span>
+                </div>
+            </div>
+            <!-- حاوية شرائط الاحتفال الانفجارية -->
+            <div id="confetti-burst" class="confetti-burst"></div>
+        </div>
+
+        <!-- المشهد 3: شلال الكلمات بحبال الورود واسم فاطمة عادل المهيب -->
+        <div id="scene-3" class="scene">
+            <div class="waterfall-ropes-container">
+                <div class="flower-garland">🌸 🌿 🌹 🌿 🌸</div>
+                <div id="waterfallText" class="waterfall-text"></div>
+            </div>
+            <div id="brideName" class="bride-majestical-name">
+                ✨ فاطمة عادل ✨
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
